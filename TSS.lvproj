@@ -20,7 +20,7 @@
 			</Item>
 			<Item Name="SequenceFile" Type="Folder">
 				<Item Name="Execute SequenceFile.vi" Type="VI" URL="../Test/Execute SequenceFile.vi"/>
-				<Item Name="SequenceFile Simple Execute.vi" Type="VI" URL="../Test/SequenceFile Simple Execute.vi"/>
+				<Item Name="Simple Execute.vi" Type="VI" URL="../Test/Simple Execute.vi"/>
 			</Item>
 			<Item Name="Process Model" Type="Folder">
 				<Item Name="Execute with Process Model Explicit Model.vi" Type="VI" URL="../Test/Execute with Process Model Explicit Model.vi"/>
@@ -28,7 +28,6 @@
 			</Item>
 		</Item>
 		<Item Name="TSS.lvlib" Type="Library" URL="../TSS.lvlib"/>
-		<Item Name="Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/Negentropic/Serializable/Serialization.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Session - Root.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_Session Fwk/Session - Root.lvclass"/>
@@ -53,7 +52,6 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Serializable.lvlib" Type="Library" URL="/&lt;vilib&gt;/Negentropic/Serializable/Serializable.lvlib"/>
-				<Item Name="IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/Negentropic/IO/IO.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>

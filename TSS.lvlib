@@ -46,5 +46,6 @@
 	<Item Name="Execution.lvclass" Type="LVClass" URL="../Execution/Execution.lvclass"/>
 	<Item Name="Report.lvclass" Type="LVClass" URL="../Report/Report.lvclass"/>
 	<Item Name="SequenceFile.lvclass" Type="LVClass" URL="../SequenceFile/SequenceFile.lvclass"/>
+	<Item Name="UIMessage.lvclass" Type="LVClass" URL="../UIMessage/UIMessage.lvclass"/>
 	<Item Name="VariableContainer.lvclass" Type="LVClass" URL="../VariableContainer/VariableContainer.lvclass"/>
 </Library>
