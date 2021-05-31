@@ -20,9 +20,11 @@
 			</Item>
 			<Item Name="SequenceFile" Type="Folder">
 				<Item Name="Execute SequenceFile.vi" Type="VI" URL="../Test/Execute SequenceFile.vi"/>
+				<Item Name="SequenceFile Simple Execute.vi" Type="VI" URL="../Test/SequenceFile Simple Execute.vi"/>
 			</Item>
 			<Item Name="Process Model" Type="Folder">
-				<Item Name="Execute with Process Model.vi" Type="VI" URL="../Test/Execute with Process Model.vi"/>
+				<Item Name="Execute with Process Model Explicit Model.vi" Type="VI" URL="../Test/Execute with Process Model Explicit Model.vi"/>
+				<Item Name="Execute with Default Process Model.vi" Type="VI" URL="../Execution/Execute with Default Process Model.vi"/>
 			</Item>
 		</Item>
 		<Item Name="TSS.lvlib" Type="Library" URL="../TSS.lvlib"/>
