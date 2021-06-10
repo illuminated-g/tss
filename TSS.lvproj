@@ -86,6 +86,7 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -128,6 +129,47 @@
 				<Property Name="TgtF_productName" Type="Str">SeqFile Exec Test EXE</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FB8DD63C-CD67-44CE-9BE5-BB5431DF4C20}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">execseq.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Simple Execute" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F0C94C96-A1AE-481E-8EE4-974A57290372}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1D628AAA-F4CC-4E01-B25C-0FEBC093323D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{71FB83E6-0C5B-446A-B659-3917B3D8B0CD}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Simple Execute</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Simple Execute</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3F8D2EC4-0929-4DAE-8CE5-AB5098D46EDF}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">simple-exec.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simple Execute/simple-exec.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simple Execute/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DB182DE3-F0FB-4D03-B8C3-432DCAD84CE4}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Test \/ Examples/SequenceFile/Simple Execute.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Simple Execute</Property>
+				<Property Name="TgtF_internalName" Type="Str">Simple Execute</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Simple Execute</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{38F27673-7D69-4C18-ABC7-11FC243414C3}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">simple-exec.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
